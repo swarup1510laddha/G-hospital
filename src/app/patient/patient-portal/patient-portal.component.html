@@ -1,0 +1,50 @@
+<div class="tab-container">
+    <div class="tabs">
+        <div class="tab" [ngClass]="{ selected: selected === 1 }" (click)="setSelected(1)">
+            ADD PATIENT
+        </div>
+        <div class="tab" [ngClass]="{ selected: selected === 2 }" (click)="setSelected(2)">
+            PATIENT HISTORY
+        </div>
+        <div class="tab" [ngClass]="{ selected: selected === 3 }" (click)="setSelected(3)">
+            current outstanding
+        </div>
+        <div class="tab" [ngClass]="{ selected: selected === 4 }" (click)="setSelected(4)">
+            short payments
+        </div>
+    </div>
+
+    <div class="form">
+        <div *ngIf="selected === 1">
+            <div class="row">
+                <input type="text" placeholder="Patient Name">
+                <input type="number" placeholder="Age">
+                <input type="number" placeholder="Weight">
+                <input type="text" placeholder="Refered by Dr.">
+                <input type="date" placeholder="Date">
+            </div>
+            <div class="row">
+                <select>
+                    <option selected="default">Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+                <input type="text" placeholder="Dignosis">
+                <input type="text" placeholder="Fees">
+                <div>
+                    <textarea placeholder="Treatment"></textarea>
+                </div>
+                
+            </div>
+            <div class="row">
+                <textarea placeholder="Ergonomic Advice"></textarea>
+                <div class="sign-pad">
+                    <signature-pad [options]="signaturePadOptions" (onBeginEvent)="drawStart()" (onEndEvent)="drawComplete()"></signature-pad>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button class="button">Add Patient</button>
+            </div>
+        </div>
+    </div>
+</div>

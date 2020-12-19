@@ -1,0 +1,57 @@
+<section id="home">
+  <div class="header">
+    <div class="container">
+      <div class="row smallscreen-top">
+        <div class="col-4 no-padding">
+          <img src="../../assets/img/logo_name.JPG" class="top-logo" alt="">
+        </div>
+        <div class="col-8 header-top-right mt-4 ">
+          <a class="btns " href="tel:+917972579584"><i class="fa fa-whatsapp"></i> +91 7972579584</a>
+          <a class="ml-5 btns" href="mailto:radhikaladdha28@gmail.com?subject = contact&body = Message"><i
+              class="fa fa-envelope"></i> radhikaladdha28@gmail.com</a>
+          <a class="icons-three space " href="tel:+917972579584"><i class="fa fa-whatsapp"></i> +91 7972579584</a>
+          <a class="icons-three ml-4" href="mailto:radhikaladdha28@gmail.com?subject = contact&body = Message"><i
+              class="fa fa-envelope"> radhikaladdha28@gmail.com</i></a>
+          <a class="icons space"  *ngIf="!showSideNav" (click)="openSideNav()"><i
+              class="fa fa-bars"></i></a>
+          <a class="icons space" style="z-index: 999;" *ngIf="showSideNav" (click)="openSideNav()"><i
+              class="fa fa-close"></i></a>
+        </div>
+      </div>
+
+      <div class="container main-menu">
+        <div class="row align-items-center justify-content-between d-flex">
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li class="menu-active"><a href="#home">Home</a></li>
+              <li><a href="#address">Address</a></li>
+              <li><a href="#services">Services</a></li>
+              <!-- <li><a routerLink="./Admin-Portal">Features</a></li> -->
+              <li><a routerLink="./Patient-Portal">Features</a></li>
+              <li><a href="#contactUs">Contact </a></li>
+              <li><a href="#appoinment">Appoinment</a></li>
+              <li><a href="#aboutUs">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<body class="mobile-nav-active" *ngIf="showSideNav">
+  <nav id="mobile-nav">
+    <ul style="touch-action: pan-y;" (click)="openSideNav()">
+      <li class="menu-active"><a href="#home">Home</a></li>
+      <li><a href="#address">Address</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#contactUs">Contact </a></li>
+      <li><a href="#appoinment">Appoinment</a></li>
+      <li><a href="#aboutUs">About Us </a></li>
+    </ul>
+  </nav>
+
+  <div id=mobile-body-overly style="display: block;" (click)="openSideNav()">
+  </div>
+</body>

@@ -1,0 +1,72 @@
+.tab-container{
+margin-top: 9%;
+padding: 0 112px;
+}
+
+.tab-container .tabs {
+    display: flex;
+  }
+  
+  .tab-container .tabs {
+    background-color: #eeeeee;
+    height: 38px;
+  }
+  
+  .tab-container .tabs .tab {
+    width: 22%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  
+  .tab-container .tabs .tab.selected {
+    background-color: #ffffff;
+    border: 1px solid #aaa;
+    border-bottom: none;
+    /* border-top-right-radius: 5px;
+    border-top-left-radius: 5px; */
+    cursor: pointer;
+    color: #37afe4;
+  }
+  
+  .form{
+    border: 1px solid black;
+    margin-top: 30px;
+    height: 450px;
+  }
+
+  .row{
+      display: flex;
+      flex-direction: row;
+      padding: 10px 30px;
+  }
+
+  .row input, select{
+      padding: 10px;
+      margin-left: 15px;
+  }
+
+  .row textarea{
+      margin-left: 15px;
+      width: 506px;
+  }
+
+  .sign-pad{
+    border: 1px solid gray;
+    margin-left: 10px;
+    background-image: url(http://lathonez.com/angular2-signaturepad-demo/assets/sign-here.png);
+    background-repeat: no-repeat;
+    background-position-y: 95%;
+  }
+
+  .button{
+    background-image: -webkit-linear-gradient(0deg, #e600c7 0%, #105ad1 100%);
+    color: #fff;
+    padding: 9px 25px;
+    font-size: 20px;
+    border: none;
+    width: 20%;
+    border-radius: 2px;
+  }

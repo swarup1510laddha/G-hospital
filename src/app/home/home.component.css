@@ -1,0 +1,243 @@
+/* banner */
+.banner {
+  background: url("../../assets/img/banner.jpg") no-repeat center center;
+  background-size: cover;
+  height: 563px;
+  margin-top: 105px;
+}
+
+.banner .overlay-bg {
+  height: 668px;
+  background-color: rgba(4, 9, 30, 0.85);
+}
+.overlay {
+  height: 563px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.banner-content {
+  text-align: center;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.heading-1 {
+  margin-top: 24%;
+  color: white;
+}
+
+.heading-2 {
+  color: white;
+}
+
+@media (max-width: 820px) {
+  .heading-1 {
+    margin-top: 60%;
+    color: white;
+  }
+}
+
+/* address */
+.open-hour-area {
+  margin-top: -100px;
+  z-index: 2;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.open-hour-wrap {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  background-color: #fff;
+  padding: 60px 0px;
+}
+
+.open-hour-wrap .date-list {
+  margin-top: 30px;
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.open-hour-wrap .date-list .colm-1 {
+  margin-right: 30px;
+  color: #222;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.open-hour-wrap .date-list .colm-2 {
+  text-align: left;
+}
+
+/* services */
+.section-gap {
+  padding: 120px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -14px;
+}
+
+.single-service img {
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.single-service h5 {
+  margin-top: 8px;
+  margin-bottom: 18px;
+}
+
+.single-service h5:hover {
+  color: #007bff;
+}
+
+/* aboutUs */
+.home-about-area {
+  background-color: #04091e;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.relative {
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  .small-screen {
+    display: none;
+  }
+  .from-top {
+    margin-top: -2%;
+  }
+}
+
+
+@media(max-width: 991px){
+  .full-screen {
+    display: none;
+  }
+
+  .appoinment-area .appoinment-right {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+
+
+agm-map {
+  height: 300px;
+}
+/* appoinment  */
+.appoinment-area {
+  background-color: #04091e;
+}
+@media(min-width: 992px){
+.appoinment-area .appoinment-right {
+  max-width: 580px;
+  padding-left: 35px;
+}
+}
+
+.appoinment-area h1 {
+  margin-bottom: 20px;
+}
+
+.appoinment-area .appoinment-right .form-control {
+  padding: 12px;
+}
+
+.appoinment-area .appoinment-right input, .appoinment-area .appoinment-right textarea {
+  color: #ccc;
+  font-size: 13px;
+  border-color: #505362;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.appoinment-area .appoinment-right .primary-btn {
+  border-radius: 0px;
+  border: 1px solid transparent;
+}
+
+.primary-btn {
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+  background-image: -webkit-linear-gradient(0deg, #e600c7 0%, #105ad1 100%);
+}
+
+
+/* about */
+
+.img-fluid {
+  max-width: 100%;
+  
+}
+
+.rounded {
+  border-radius: 1.25rem!important;
+}
+
+/* .iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
