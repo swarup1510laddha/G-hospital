@@ -43,14 +43,21 @@ padding: 0 112px;
       padding: 10px 30px;
   }
 
-  .row input, select{
+  .row input[type="text"],input[type="date"]{
       padding: 10px;
       margin-left: 15px;
+      width: 23%;
   }
+
+  .row input[type="number"],select{
+    padding: 10px;
+    margin-left: 15px;
+    width:16.9%;
+}
 
   .row textarea{
       margin-left: 15px;
-      width: 506px;
+      width: 526px;
   }
 
   .sign-pad{

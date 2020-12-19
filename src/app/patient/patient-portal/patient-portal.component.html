@@ -18,26 +18,32 @@
         <div *ngIf="selected === 1">
             <div class="row">
                 <input type="text" placeholder="Patient Name">
-                <input type="number" placeholder="Age">
-                <input type="number" placeholder="Weight">
-                <input type="text" placeholder="Refered by Dr.">
                 <input type="date" placeholder="Date">
+                <input type="text" placeholder="Dignosis">
+                
+                <input type="text" placeholder="Refered by Dr.">
+                
+               
+               
             </div>
             <div class="row">
+                <input type="number" placeholder="Age">
                 <select>
                     <option selected="default">Gender</option>
                     <option>Male</option>
                     <option>Female</option>
                 </select>
-                <input type="text" placeholder="Dignosis">
-                <input type="text" placeholder="Fees">
-                <div>
-                    <textarea placeholder="Treatment"></textarea>
-                </div>
+                <input type="number" placeholder="Weight">
+                <input type="number" placeholder="Fees">
+                <input type="text" placeholder="Email">
                 
             </div>
             <div class="row">
+                <textarea placeholder="Treatment"></textarea>
                 <textarea placeholder="Ergonomic Advice"></textarea>
+                
+            </div>
+            <div class="row">
                 <div class="sign-pad">
                     <signature-pad [options]="signaturePadOptions" (onBeginEvent)="drawStart()" (onEndEvent)="drawComplete()"></signature-pad>
                 </div>

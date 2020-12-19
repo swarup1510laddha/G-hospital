@@ -21,7 +21,7 @@ export class PatientPortalComponent implements OnInit {
   signaturePadOptions: Object = { // passed through to szimek/signature_pad constructor
     'minWidth': 5,
     'canvasWidth': 525,
-    'canvasHeight': 200
+    'canvasHeight': 150
   };
  
  
