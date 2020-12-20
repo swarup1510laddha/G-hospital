@@ -1,5 +1,5 @@
 .tab-container{
-margin-top: 9%;
+margin-top: 13%;
 padding: 0 112px;
 }
 
@@ -33,47 +33,5 @@ padding: 0 112px;
   
   .form{
     border: 1px solid black;
-    margin-top: 30px;
-    height: 450px;
-  }
-
-  .row{
-      display: flex;
-      flex-direction: row;
-      padding: 10px 30px;
-  }
-
-  .row input[type="text"],input[type="date"]{
-      padding: 10px;
-      margin-left: 15px;
-      width: 23%;
-  }
-
-  .row input[type="number"],select{
-    padding: 10px;
-    margin-left: 15px;
-    width:16.9%;
-}
-
-  .row textarea{
-      margin-left: 15px;
-      width: 526px;
-  }
-
-  .sign-pad{
-    border: 1px solid gray;
-    margin-left: 10px;
-    background-image: url(http://lathonez.com/angular2-signaturepad-demo/assets/sign-here.png);
-    background-repeat: no-repeat;
-    background-position-y: 95%;
-  }
-
-  .button{
-    background-image: -webkit-linear-gradient(0deg, #e600c7 0%, #105ad1 100%);
-    color: #fff;
-    padding: 9px 25px;
-    font-size: 20px;
-    border: none;
-    width: 20%;
-    border-radius: 2px;
+    margin-top: 3%;
   }

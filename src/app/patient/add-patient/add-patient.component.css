@@ -1,0 +1,57 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 1% 4%;
+}
+
+.column{
+  display: flex;
+    flex-direction: column;
+    /* padding: 1% 4%; */
+}
+
+/* .column input[type="text"],input[type="date"]{
+  padding: 1%;
+  margin-left: 1.5%;
+  width: 23%;
+} */
+
+.row input[type="text"],input[type="date"]{
+    padding: 1%;
+    margin-left: 1.5%;
+    width: 23%;
+}
+
+.row input[type="number"],select{
+  padding: 1%;
+  margin-left: 1.5%;
+  width:16.9%;
+}
+
+.row textarea{
+    margin-left: 1.5%;
+    width: 47.5%;
+}
+
+.sign-pad{
+  border: 1px solid gray;
+  margin-left: 1.5%;
+  background-image: url(http://lathonez.com/angular2-signaturepad-demo/assets/sign-here.png);
+  background-repeat: no-repeat;
+  background-position-y: 95%;
+}
+
+.button{
+  background-image: -webkit-linear-gradient(0deg, #e600c7 0%, #105ad1 100%);
+  color: #fff;
+  padding: 9px 25px;
+  font-size: 20px;
+  border: none;
+  width: 20%;
+  border-radius: 2px;
+}
+
+.form-error{
+  margin-left: 4%;
+  /* position:absolute; */
+}

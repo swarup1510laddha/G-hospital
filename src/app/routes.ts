@@ -6,6 +6,6 @@ import { PatientPortalComponent } from './patient/patient-portal/patient-portal.
 export const appRoutes: Routes = [
     {path: 'home' , component: HomeComponent},
     {path: '', component: HomeComponent},
-    {path: 'Admin-Portal', component: AdminLoginComponent},
+    {path: 'Admin-Login', component: AdminLoginComponent},
     {path: 'Patient-Portal', component: PatientPortalComponent}
 ];

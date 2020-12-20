@@ -14,6 +14,7 @@ import { appRoutes } from './routes';
 import { HomeComponent } from './home/home.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { PatientPortalComponent } from './patient/patient-portal/patient-portal.component';
+import { AddPatientComponent } from './patient/add-patient/add-patient.component';
 
 @NgModule({
    declarations: [
@@ -21,7 +22,8 @@ import { PatientPortalComponent } from './patient/patient-portal/patient-portal.
       NavComponent,
       HomeComponent,
       AdminLoginComponent,
-      PatientPortalComponent
+      PatientPortalComponent,
+      AddPatientComponent
    ],
    imports: [
       FormsModule,
