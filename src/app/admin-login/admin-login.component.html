@@ -21,7 +21,7 @@
               <input type="email" formControlName="Email" placeholder="Email"
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control mail">
               <div *ngIf="Email.invalid && Email.touched">
-                <small *ngIf="Email.errors?.required" class="text-danger">Email is Required.</small>
+                <small *ngIf="Email.errors?.required" class="text-danger">mail is Required.</small>
                 <small *ngIf="Email.errors?.pattern" class="text-danger">Email is not in correct pattern.</small>
               </div>
             </div>
